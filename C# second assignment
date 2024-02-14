@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace second assignment 
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+         int i = 4;
+
+ double d = 4.0;
+
+ string s = "Polyilaro ";
+ 
+//integer calculation
+Console.WriteLine("enter first number");
+String name = Console.ReadLine();
+ int no1 = int.Parse(name);
+
+int sum = no1 + i;
+Console.WriteLine("sum is : " + sum);
+
+// double calculation
+            Console.WriteLine("enter second number");
+String name1 = Console.ReadLine();
+ Double no2  = Double.Parse(name1);
+
+
+Double sum2 = no2  + d;
+Console.WriteLine("sum is : " + sum2);
+
+//string input
+
+Console.WriteLine("Acknowledgment");
+String name2=Console.ReadLine();
+
+Console.WriteLine(s + name2);
+Console.ReadLine ();
+            
+        }
+    }
+}
